@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "admin",
+      "password": "admin"
+    }
+  ],
+  "tests": [
+    {
+      "time": 1000,
+      "title": "title of test",
+      "keyCode": "123",
+      "questions": [
+        {
+          "questionId": 1,
+          "answer": 2,
+          "title": "Is C++ needed?",
+          "answers": [
+            {
+              "id": 1,
+              "title": "Yes"
+            },
+            {
+              "id": 2,
+              "title": "No"
+            },
+            {
+              "id": 3,
+              "title": "Tes"
+            },
+            {
+              "id": 4,
+              "title": "Nes"
+            }
+          ]
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "results": [
+    {
+      "id": 1,
+      "testId": 1,
+      "studentName": "Mateusz",
+      "result": 58,
+      "date": "05/29/2023 12:11:00"
+    },
+    {
+      "date": "05/29/2023 12:17:12",
+      "result": 100,
+      "studentName": "123",
+      "testId": 1,
+      "id": 2
+    }
+  ]
+}

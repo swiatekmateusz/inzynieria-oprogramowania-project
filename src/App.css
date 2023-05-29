@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10rem;
+  padding-bottom: 5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+h2{
+  text-align: center;
+}
+
+.add {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+a {
+  padding: 14px 31px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid black;
+  display: block;
+  width: fit-content;
+  font-weight: bold;
+  color: black !important;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+button, input[type=submit] {
+  background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.back {
+    margin-bottom: 2rem;
+}
+
+button:disabled, input[type=submit]:disabled {
+  background-color: #aaa; 
+  cursor: initial;
+}
+
+.error {
+  margin-top: .5rem;
+  text-align: center;
+}
+
+.test{
+  width: 600px;
+  margin: 2rem 0;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.group {
+  margin-bottom: .5rem;
+}
+
+.flex-between label {
+  padding-right: 10px;
+}
+
+.fieldset{
+  margin-bottom: 2rem;
+}
+
+table {
+  margin-top: 2rem;
+  min-width: 800px;
+}
+
+th{
+  background-color: #ddd;
+}
+
+th,td{
+  padding: 5px;
+}
+
+td {
+  border-bottom: 1px solid black;
+}
+
+td.actions {
+  display: flex;
+  gap: 0 .5rem;
+}
+
+td.actions button,td.actions a {
+  padding: .25rem 1rem;
+  margin: .5rem 0;
+}
+
+.test-form {
+  width: 600px;
+}
+
+.test-form input[type="number"]{
+  width: 100px !important;
+  margin-top: .5rem;
+  margin-bottom: 1rem;
+}
+
+.test-form .group {
+  display: flex;
+  flex-direction: column;
+}
+
+.answer label {
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+.answer input {
+  width: 100%;
+}
+
+.answer {
+  flex-direction: row !important;
+}
